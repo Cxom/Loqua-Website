@@ -1,0 +1,104 @@
+@font-face{
+    font-family: Open Sans;
+    src: url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+}
+
+* {
+    margin: 0;
+}
+
+nav{
+    background-color: white;
+    background-image: -webkit-linear-gradient(white, #ddd);
+    background-image: -o-linear-gradient(white, #ddd);
+    background-image: linear-gradient(white, #ddd);
+    font-family: 'Open Sans', Trebuchet MS;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: 0 10% 0 5%;
+    border-bottom: solid 1x #999;
+}
+
+img#address{
+    color: #888;
+    font-size: 2em;
+    max-width: 30vw;
+    height: inherit;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    
+    list-style-type: none;
+    
+    font-family: Open Sans, Trebuchet MS;
+    font-weight: 400;
+    font-size: 1.2em;
+    
+    margin: 0 15% 0 5%;
+    
+    /*height: em;*/
+    width: 100%;
+    
+    
+}
+
+nav li{
+    padding: .2em .8em;
+    margin: 10px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #555;
+    transition: .2s;
+}
+
+nav li a:hover{
+    color: #aaa;
+    transition: .2s;
+}
+
+nav li a:active{
+    color: #fff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    /*min-width: 160px;*/
+    /*width: 100%;*/
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /*padding: 12px 16px;*/
+    /*box-sizing: padding-box;*/
+    margin-top: 12%;
+}
+
+.dropdown-content a{
+    min-width: 100%;
+    font-size: .8em;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+#profile-button{
+    padding: .4em 1.2em;
+}
