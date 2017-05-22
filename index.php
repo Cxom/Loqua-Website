@@ -4,9 +4,9 @@
     <head>
         <meta charset="utf-8"/>
         <base href="./">
-        <link rel="stylesheet" type="text/css" href="reset.css"/>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
-        <link rel="stylesheet" type="text/css" href="includes/loqua-nav.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/stylesheet.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/loqua-nav.css"/>
         <!--<script src="/scripts/jquery.js"></script>
 		<script type="text/javascript" src="script.js"></script>-->
         <script type="text/javascript" src="includes/rand-background.js"></script>
