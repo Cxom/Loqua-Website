@@ -1,25 +1,55 @@
-body{
+html, body {
     height: 100%;
+}
+
+body{
     background-size: cover;
     background-position: 0 0;
     background-repeat: no-repeat;
-    min-width: 175px;
+    min-width: 300px;
+    min-height: 450px;
 }
 
 main{
-    margin: 5em auto;
+    margin: auto;
     width: 70%;
-    min-height: 80vh;
-    background-color: rgba(200, 200, 200, .7);
+    height: 84%;
+    position: relative;
+    /*background-color: rgba(200, 200, 200, .7);*/
 }
 
 #dynmap {
-    display: flex;
-    align-items: center;
     margin: auto;
     width: 100%;
-    height: 80vh;
+    height: 80%;
     border: 20px solid #d3d0d0;
     box-sizing: border-box;
     box-shadow: 0 0 20px 3px;
+    position: relative;
+    top: 10%;
 }
+
+.landmark-container {
+
+}
+
+.landmark {
+    height: 70px;
+    /*padding: 5px;*/
+    /*background-clip: padding-box;*/
+    /*border: 10px solid transparent;*/
+}
+
+.landmark-inner {
+    background-color: rgba(220, 220, 220, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*img .landmark {*/
+    /*height: 70px;*/
+    /*wid*/
+    /*!*overflow: hidden;*!*/
+    /*background-position: center center;*/
+    /*background-repeat: no-repeat;*/
+/*}*/

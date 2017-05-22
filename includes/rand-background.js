@@ -9,7 +9,7 @@ var imageURLs = [
     "http://imgur.com/TZsUFeB.png"
 ];
 function getRandImage(){
-    return imageURLs[Math.floor(Math.random() * imageURLs.length)];
+    return "images/backgrounds/" + Math.floor(Math.random() * 20 + 1) + ".png";
 }
 function getImageTag() {
   var img = '<img src=\"';
