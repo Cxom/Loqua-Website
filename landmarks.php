@@ -16,7 +16,89 @@
 <body>
     <?php include 'includes/loqua-nav.php'; ?>
     <main>
-        
+        <div id="landmark-container container-fluid">
+            <div id="landmark-row" class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 landmark ">
+                    <div class="landmark-inner">
+                        <div class="landmark-img"
+                             style="background-image: url(images/backgrounds/2.png);" role="img">
+                        </div>
+                        <h2 class="landmark-name">Spire 2.75</h2>
+                        <p class="landmark-desc">The tallest building in Loqua, it's a mighty sight.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 landmark">
+                    <div class="landmark-inner">
+                        <div class="landmark-img"
+                             style="background-image: url(images/backgrounds/23.png);" role="img">
+                        </div>
+                        <h2 class="landmark-name">The Tech Park</h2>
+                        <p class="landmark-desc">An awesome place to work or catch a tram!</p>
+                    </div>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 landmark">
+                    <div class="landmark-inner">
+                        <div class="landmark-img"
+                             style="background-image: url(images/backgrounds/1.png);" role="img">
+                        </div>
+                        <h2 class="landmark-name">The Oasis</h2>
+                        <p class="landmark-desc">Looming over the Boulevard, a grand shopping center.</p>
+                    </div>
+                </div>
+                <div class="clearfix visible-md-block"></div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 landmark">
+                    <div class="landmark-inner">
+                        <div class="landmark-img"
+                             style="background-image: url(images/backgrounds/5.png);" role="img">
+                        </div>
+                        <h2 class="landmark-name">Art Deco Bank</h2>
+                        <p class="landmark-desc">Managing... finances... can be a real skill.</p>
+                    </div>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="clearfix visible-lg-block"></div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 landmark">
+                    <div class="landmark-inner">
+                        <div class="landmark-img"
+                             style="background-image: url(images/backgrounds/24.png);" role="img">
+                        </div>
+                        <h2 class="landmark-name">The Office Plaza</h2>
+                        <p class="landmark-desc">A good place to shoot the breeze, so they say.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 landmark">
+                    <div class="landmark-inner">
+                        <div class="landmark-img"
+                             style="background-image: url(images/backgrounds/25.png);" role="img">
+                        </div>
+                        <h2 class="landmark-name">The Promenade</h2>
+                        <p class="landmark-desc">Explore the offerings and seize the dealer- err, deals!</p>
+                    </div>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="clearfix visible-md-block"></div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 landmark">
+                    <div class="landmark-inner">
+                        <div class="landmark-img"
+                             style="background-image: url(images/backgrounds/28.png);" role="img">
+                        </div>
+                        <h2 class="landmark-name">Maggie's Café</h2>
+                        <p class="landmark-desc">Come get your daily energy fix! Great java on offer, etc.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 landmark">
+                    <div class="landmark-inner">
+                        <div class="landmark-img"
+                             style="background-image: url(images/backgrounds/29.png);" role="img">
+                        </div>
+                        <h2 class="landmark-name">The Cahpahk</h2>
+                        <p class="landmark-desc">Near the Oasis, a great place to spot some cool vehicles.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </main>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>

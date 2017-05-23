@@ -14,7 +14,6 @@ main{
     margin: auto;
     width: 70%;
     height: 84%;
-    position: relative;
     /*background-color: rgba(200, 200, 200, .7);*/
 }
 
@@ -29,21 +28,32 @@ main{
     top: 10%;
 }
 
-.landmark-container {
-
-}
-
-.landmark {
-    height: 70px;
-    /*padding: 5px;*/
-    /*background-clip: padding-box;*/
-    /*border: 10px solid transparent;*/
-}
-
 .landmark-inner {
-    background-color: rgba(220, 220, 220, 0.5);
+    background-color: rgba(220, 220, 220, 0.75);
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 10px 1px 10px;
+    margin-bottom: 10px;
+}
+
+.landmark-img {
+    height: 170px;
+    width: 90%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.landmark-name {
+    font-family: 'Slabo 27px', sans-serif;
+    font-weight: 800;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    width: 100%;
+    text-align: center;
+    margin: 3px;
 }
 
 /*img .landmark {*/
