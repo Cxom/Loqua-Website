@@ -20,9 +20,26 @@
            <?php include 'includes/loqua-nav.php'; ?>
        </header>
         <main>
-           <p>
-             So, Test
-           </p>
+           <h1 class="welcome">Welcome to<span class="loqua">Loqua</span></h1>
+           <div id="loqua-info">
+                <p> A passion project now 2 years ongoing, Loqua is a semi-realistic Minecraft city
+                    founded on ideals of consistency and scale, but also, importantly, on easter eggs and inside jokes.
+                    From the tallest section of downtown where building started, the city has now grown into a multifarious
+                    locale of varying districts and areas, with much more variety still yet to come!</p>
+
+                <p> Loqua is also the intended home of a future GTA-inspired Minecraft multiplayer world, complete
+                    with exciting minigames and unique and unprecedented gameplay. As that future approaches, this site will serve
+                    to track and honor the growth of the city. You can take a look at important landmarks on the
+                    <a href="landmarks">Landmarks</a> page, learn about the various contributors on the <a href="people">People</a>
+                    page, and watch for general updates right here. You can also check out a live map by clicking the <a href="map">Map</a>
+                    button above, or view a fullscreen version by going to <a href="http://map.punchtree.net">map.punchtree.net</a>. Happy building!
+                </p>
+           </div>
+            <div class="author-panel">
+                <div class="author"
+                     style="background-image: url(images/people/CxomMug.png)" title="Cxom wrote this!">
+                </div>
+            </div>
         </main>
         <!--<footer>
             <p><em>#KeepPage5Alive</em></p>

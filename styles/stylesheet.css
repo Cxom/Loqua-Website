@@ -12,6 +12,7 @@ body{
 
 main{
     margin: auto;
+    margin-top: 2.4em;
     width: 70%;
     height: 84%;
     /*background-color: rgba(200, 200, 200, .7);*/
@@ -52,16 +53,19 @@ main{
     margin: auto;
 }
 
-.people-img {
+.landmark-img {
+    background-position: center center;
+}
+
+.people-img, .author-panel {
     background-position: center top;
 }
 
 .landmark-name {
     font-family: 'Slabo 27px', sans-serif;
     font-weight: 800;
-    text-decoration: underline;
     text-transform: uppercase;
-    font-size: 1.1em;
+    font-size: 1.2em;
     width: 100%;
     text-align: center;
     margin: 3px;
@@ -77,4 +81,52 @@ main{
     font-weight: 600;
     text-transform: uppercase;
     font-size: 1.3em;
+}
+
+
+main h1 {
+    font-family: Trebuchet MS, monospace;
+    background-color: rgba(255, 255, 255, 0.67);
+    font-size: 1em;
+    margin-right: 3em;
+}
+
+.welcome {
+    font-size: 2em;
+}
+
+.loqua {
+    font-size: 3em;
+}
+
+#loqua-info, main h1, .author-panel {
+    padding: 13px;
+    border-radius: 10px;
+}
+
+#loqua-info {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+    margin-left: 3em;
+}
+
+#loqua-info p {
+    font-family: "Slabo 27px", serif;
+    font-size: 1.4em;
+    padding: 10px;
+    text-indent: 50px;
+}
+
+.author-panel {
+    background-color: rgba(255, 255, 255, 0.67);
+    float: right;
+    margin-top: -50px;
+    margin-right: 50px;
+}
+
+.author {
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
