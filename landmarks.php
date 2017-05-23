@@ -19,7 +19,7 @@
         <div id="landmark-container container-fluid">
             <div id="landmark-row" class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 landmark ">
-                    <div class="landmark-inner">
+                    <div class="col-item-inner">
                         <div class="landmark-img"
                              style="background-image: url(images/backgrounds/2.png);" role="img">
                         </div>
@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 landmark">
-                    <div class="landmark-inner">
+                    <div class="col-item-inner">
                         <div class="landmark-img"
                              style="background-image: url(images/backgrounds/23.png);" role="img">
                         </div>
@@ -38,7 +38,7 @@
                 </div>
                 <div class="clearfix visible-sm-block"></div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 landmark">
-                    <div class="landmark-inner">
+                    <div class="col-item-inner">
                         <div class="landmark-img"
                              style="background-image: url(images/backgrounds/1.png);" role="img">
                         </div>
@@ -48,7 +48,7 @@
                 </div>
                 <div class="clearfix visible-md-block"></div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 landmark">
-                    <div class="landmark-inner">
+                    <div class="col-item-inner">
                         <div class="landmark-img"
                              style="background-image: url(images/backgrounds/5.png);" role="img">
                         </div>
@@ -59,7 +59,7 @@
                 <div class="clearfix visible-sm-block"></div>
                 <div class="clearfix visible-lg-block"></div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 landmark">
-                    <div class="landmark-inner">
+                    <div class="col-item-inner">
                         <div class="landmark-img"
                              style="background-image: url(images/backgrounds/24.png);" role="img">
                         </div>
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 landmark">
-                    <div class="landmark-inner">
+                    <div class="col-item-inner">
                         <div class="landmark-img"
                              style="background-image: url(images/backgrounds/25.png);" role="img">
                         </div>
@@ -79,7 +79,7 @@
                 <div class="clearfix visible-sm-block"></div>
                 <div class="clearfix visible-md-block"></div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 landmark">
-                    <div class="landmark-inner">
+                    <div class="col-item-inner">
                         <div class="landmark-img"
                              style="background-image: url(images/backgrounds/28.png);" role="img">
                         </div>
@@ -88,7 +88,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 landmark">
-                    <div class="landmark-inner">
+                    <div class="col-item-inner">
                         <div class="landmark-img"
                              style="background-image: url(images/backgrounds/29.png);" role="img">
                         </div>
